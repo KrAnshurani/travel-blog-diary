@@ -1,0 +1,123 @@
+.home-container {
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 50px; */
+  }
+  
+  .home-container h1 {
+    font-size: 2em;
+    margin:0;
+    padding-top:30px;
+  }
+  
+  .home-container p {
+    font-size: 1.2em;
+    color: #fbfbfb;
+  }
+  
+  .hero-section {
+    background-image: url('../../assets/Images/home-bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    height: 500px;
+    padding: 100px 0; 
+    opacity: 0.9;
+ 
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #b36c6c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+/* FEATURED POST SECTION */
+
+.featured-section {
+  margin-top: 50px;
+  max-width: 1200px; 
+  margin: 70px auto;
+}
+
+.featured-posts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.featured-post {
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.featured-post h3 {
+  margin-top: 0;
+}
+.featured-post p {
+  color: #555;
+}
+.featured-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* CATEGORIES SECTION */
+
+.categories-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category img {
+  width: 200px; 
+  height: auto; 
+  border-radius: 10px; }
+
+.category h3 {
+  margin-top: 10px;
+}
+
+/* .carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px!important;
+  border-radius: 5px;
+} */
+
+.carousel-caption h3 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+}
+.carousel-item{
+  max-height: 400px; 
+  overflow: hidden;
+}
+.carousel{
+  max-width: 950px;
+  margin: 0 auto;
+}
